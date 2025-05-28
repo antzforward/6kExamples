@@ -1,4 +1,4 @@
-using Cinemachine;
+using Unity.Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +10,7 @@ public class VFXSamplesCMCameraControl : MonoBehaviour
     public KeyCode ZoomKey = KeyCode.LeftShift;
 
     [Header("Configuration")]
-    public Cinemachine.CinemachineFreeLook m_Camera;
+    public CinemachineCamera m_Camera;
     public UnityEngine.Rendering.Volume m_PostProcessVolume; 
     public Vector2 ZoomInOutFov = new Vector2(40,75);
     public float dampen = 14f;
@@ -69,7 +69,7 @@ public class VFXSamplesCMCameraControl : MonoBehaviour
                 m_CachedValue = 0;
 
             m_PostProcessVolume.weight = value;
-            m_Camera.m_Lens.FieldOfView = Mathf.Lerp(ZoomInOutFov.y, ZoomInOutFov.x, m_CachedValue);
+            m_Camera.Lens.FieldOfView = Mathf.Lerp(ZoomInOutFov.y, ZoomInOutFov.x, m_CachedValue);
         }
 
         if(Input.GetMouseButton(MouseRotateButton))
