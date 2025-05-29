@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpiralBlurCustomFunctionCustomFunction_1a8f5730f4b2425aa252e141aacca6ba_Tex_6_Texture2D:
-        m_Texture: {fileID: 2800000, guid: e3d24661c1e055f45a7560c033dbb837, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -72,7 +72,7 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _Background_Saturation: 1
+    - _Background_Saturation: 0.97216904
     - _BlendMode: 0
     - _Blur: 0.06548954
     - _BlurCycles: 3
@@ -95,8 +95,8 @@ Material:
     - _HexagonDisolve: 0.98
     - _HexagonTiles: 10
     - _Hexagon_Disolve: 0.97
-    - _Hexagon_Dissolve: 0.91466075
-    - _Hexagon_Tiles: 10
+    - _Hexagon_Dissolve: 0.8577749
+    - _Hexagon_Tiles: 9.7996645
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
@@ -144,6 +144,6 @@ Material:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.7983047, g: 0.8255775, b: 0.87695575, a: 1}
+    - _Tint: {r: 1, g: 0.5517075, b: 0.87695575, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
